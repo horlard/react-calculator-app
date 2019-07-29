@@ -13,6 +13,9 @@
 .buttons > *:focus {
   outline: none;
 }
+.buttons > *:hover {
+  background: #eee;
+}
 .output {
   background: #ddd;
   height: 49px;
@@ -20,6 +23,7 @@
   width: 245px;
   text-align: center;
   margin-top: -2px;
+  overflow: hidden;
 }
 .output_paragraph {
   padding-top: 5px;
