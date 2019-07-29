@@ -1,0 +1,39 @@
+.buttons {
+  display: grid;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+.buttons > * {
+  border-radius: 50%;
+  font-size: 20px;
+  border: none;
+}
+.buttons > *:focus {
+  outline: none;
+}
+.output {
+  background: #ddd;
+  height: 49px;
+  border-radius: 6px;
+  width: 245px;
+  text-align: center;
+  margin-top: -2px;
+}
+.output_paragraph {
+  padding-top: 5px;
+  font-size: 30px;
+}
+.container {
+  background: rgba(0, 0, 0, 0.678);
+  width: 290px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  padding: 20px;
+}
