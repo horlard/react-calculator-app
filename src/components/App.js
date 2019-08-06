@@ -21,6 +21,47 @@ class App extends Component {
     if (buttonName === "C") {
       this.reset();
     }
+    if (buttonName === "sin") {
+      this.sine();
+    }
+    if (buttonName === "cos") {
+      this.cosine();
+    }
+    if (buttonName === "tan") {
+      this.tan();
+    }
+    if (buttonName === "log") {
+      this.log();
+    }
+    if (buttonName === "sqrt") {
+      this.sqrt();
+    }
+  };
+
+  sine = () => {
+    this.setState({
+      result: Math.sin(this.state.result)
+    });
+  };
+  cosine = () => {
+    this.setState({
+      result: Math.cos(this.state.result)
+    });
+  };
+  tan = () => {
+    this.setState({
+      result: Math.tan(this.state.result)
+    });
+  };
+  log = () => {
+    this.setState({
+      result: Math.log10(this.state.result)
+    });
+  };
+  sqrt = () => {
+    this.setState({
+      result: Math.sqrt(this.state.result)
+    });
   };
 
   reset = () => {
