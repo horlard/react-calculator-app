@@ -21,6 +21,10 @@ const keypad = props => {
       <button name=")" onClick={buttonPressed}>
         )
       </button>
+      <button name="sin" onClick={buttonPressed}>
+        sin
+      </button>
+
       <button name="1" onClick={buttonPressed}>
         1
       </button>
@@ -32,6 +36,9 @@ const keypad = props => {
       </button>
       <button name="+" onClick={buttonPressed}>
         +
+      </button>
+      <button name="cos" onClick={buttonPressed}>
+        cos
       </button>
       <button name="4" onClick={buttonPressed}>
         4
@@ -45,6 +52,9 @@ const keypad = props => {
       <button name="-" onClick={buttonPressed}>
         -
       </button>
+      <button name="tan" onClick={buttonPressed}>
+        tan
+      </button>
       <button name="7" onClick={buttonPressed}>
         7
       </button>
@@ -57,9 +67,13 @@ const keypad = props => {
       <button name="*" onClick={buttonPressed}>
         *
       </button>
+      <button name="log" onClick={buttonPressed}>
+        log
+      </button>
       <button name="0" onClick={buttonPressed}>
         0
       </button>
+
       <button name="." onClick={buttonPressed}>
         .
       </button>
@@ -68,6 +82,9 @@ const keypad = props => {
       </button>
       <button name="/" onClick={buttonPressed}>
         /
+      </button>
+      <button name="sqrt" onClick={buttonPressed}>
+        Sqrt
       </button>
     </div>
   );
